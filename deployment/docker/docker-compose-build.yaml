@@ -3,16 +3,16 @@ services:
   reverseproxy:
     build:
       context: ./
-    image: heniam/reverseproxy
+    image: heniam/reverse-proxy
   backend-user:
     build:
       context: ../../api-user
-    image: heniam/api-user
+    image: heniam/udagram-api-user
   backend-feed:
     build:
       context: ../../api-feed
-    image: heniam/api-feed
+    image: heniam/udagram-api-feed
   front-end:
     build:
       context: ../../frontend
-    image: heniam/frontend
+    image: heniam/udagram-frontend
