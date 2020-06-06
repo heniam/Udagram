@@ -1,2 +1,6 @@
 *~
 *.sh
+/deployment/k8s/aws_secret.yaml
+/deployment/k8s/configmap.yaml
+/deployment/k8s/cluster.yaml
+/deployment/k8s/env-secret.yaml
